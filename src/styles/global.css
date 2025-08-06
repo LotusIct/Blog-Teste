@@ -1,0 +1,99 @@
+/* Importa a tipografia moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Fira+Code&display=swap');
+
+:root {
+  /* 🎨 Nova Paleta de Cores */
+  --background: #f8f8f8;         /* Cor de fundo: Branco suave */
+  --primary: #f4e1d2;            /* Cor primária: Bege Claro */
+  --secondary: #fbb1b1;          /* Cor secundária: Rosa Claro */
+  --dark-secondary: #e68a8a;
+  --accent: #3b3c36;             /* Cor de destaque: Cinza Escuro */
+  --text-dark: #2a2a2a;          /* Cor para texto principal */
+  --text-light: #666;            /* Cor para texto secundário */
+  --white: #ffffff;             /* Cor para branco */
+  --border: #e0e0e0;             /* Cor para bordas suaves */
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Sombra suave */
+  --radius: 8px;                /* Raio das bordas */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background);
+  color: var(--text-dark);
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--radius);
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary);
+  color: var(--white);
+  box-shadow: var(--shadow);
+  transition: background 0.3s;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: var(--radius);
+}
+
+.container {
+  margin: 0 auto;
+}
+.tag {
+  display: inline-block;
+  background-color: var(--secondary);
+  color: var(--text-dark);
+  padding: 0.3rem 0.7rem;
+  font-size: 0.875rem;
+  border-radius: var(--radius);
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+code {
+  font-family: 'Fira Code', monospace;
+  background: #f1f1f1;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}

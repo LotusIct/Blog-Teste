@@ -1,0 +1,73 @@
+.inscription-section {
+  background: var(--accent); /* Cor de fundo verde */
+  padding: 60px 20px;
+  height: 80vh; /* Garantir que ocupe 100% da altura da tela */
+  width: 100%; /* Garantir que ocupe 100% da largura da tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inscription-content {
+  max-width: 600px; /* Largura máxima do conteúdo */
+  width: 100%; /* A largura do conteúdo será 100%, mas limitada pelo max-width */
+}
+
+.inscription-content h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+  color: var( --background);
+}
+
+.inscription-content form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.inscription-content input {
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  width: 300px;
+  max-width: 80%;
+}
+
+.inscription-content button {
+  padding: 12px 25px;
+  background-color: #f4bfae; /* Cor do botão em tom de coral */
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inscription-content button:hover {
+  background-color: #f08c7f; /* Cor de hover do botão */
+}
+
+@media (max-width: 768px) {
+  .inscription-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .inscription-content form {
+    flex-direction: column;
+  }
+
+  .inscription-content input {
+    width: 90%;
+    border-radius: 2px 0px 2px 0px;
+  }
+
+  .inscription-content button {
+    width: 80%;
+    border-radius: 0px 2px;
+  }
+}

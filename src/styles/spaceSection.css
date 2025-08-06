@@ -1,0 +1,65 @@
+.space-section {
+  padding: 60px 20px;
+  background-color: var(--background); /* Cor de fundo suave */
+}
+
+.space-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0px;
+}
+
+.space-image img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+
+}
+
+.space-text {
+  width: 45%;
+}
+
+.space-text h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: transparent;  /* Deixando o texto transparente */
+  background-image: linear-gradient(to right, var( --dark-secondary), var(--accent)); /* Gradiente de cores */
+  -webkit-background-clip: text; /* Aplica o gradiente no texto */
+  margin-bottom: 20px;
+}
+
+.space-text p {
+  font-size: 1.125rem;
+  color: var(--text-light);
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .space-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .space-image img {
+    margin-bottom: 20px;
+  }
+
+  .space-text {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .space-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.space-text p {
+  font-size: 1rem;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+}

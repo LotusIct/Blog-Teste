@@ -1,0 +1,90 @@
+.footer {
+  background-color: var(--background); /* Usando o fundo suave definido no global */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  flex-wrap: wrap; /* Garantir que os itens se ajustem bem em telas menores */
+}
+
+.footer-contact,
+.footer-duvidas,
+.footer-menu {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.footer-contact h3,
+.footer-duvidas h3,
+.footer-menu h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-contact p,
+.footer-duvidas a,
+.footer-menu a {
+  font-size: 1rem;
+  color: var( --dark-secondary) !important; /* Usando a cor de texto principal */
+  line-height: 1.6;
+  text-decoration: none;
+}
+.footer-contact a {
+  font-size: 1rem;
+  color: var( --text-light) !important; /* Usando a cor de texto principal */
+  line-height: 1.6;
+}
+
+.footer-duvidas a {
+  color: var(--primary);  /* Usando a cor primária definida no global */
+}
+
+.footer-duvidas a, .footer-contact p,
+.footer-duvidas a,
+.footer-menu li a:hover {
+    text-decoration: none;
+}
+
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-menu li {
+  margin-bottom: 8px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: var(--primary);  /* Usando a cor primária para os links do menu */
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para a seção de copyright */
+.footer-copyright {
+  margin-top: 30px; /* Adiciona um pouco de espaço acima do copyright */
+  font-size: 1rem;
+  color: var(--text-light);
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .footer-contact,
+  .footer-duvidas,
+  .footer-menu {
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+.approach-section {
+  padding: 60px 20px;
+  background-color: var(--background); /* Cor de fundo suave */
+  text-align: center;
+}
+
+.approach-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.approach-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
+
+.approach-content p {
+  font-size: 1.125rem;
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.approach-button {
+  display: inline-block;
+  background-color: #f4bfae; /* Cor do botão em tom de coral */
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.approach-button:hover {
+  background-color: #f08c7f; /* Cor de hover do botão */
+}
+
+@media (max-width: 768px) {
+  .approach-content h2 {
+    font-size: 2rem;
+  }
+
+  .approach-content p {
+    font-size: 1rem;
+  }
+}
