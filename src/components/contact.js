@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/inscriptionSection.css';  // Certifique-se de ter esse arquivo CSS
+import '../styles/inscriptionSection.css';  
 
 const InscriptionSection = () => {
   const [email, setEmail] = useState('');
@@ -10,23 +10,23 @@ const InscriptionSection = () => {
 
   const handleSubscribe = (e) => {
     e.preventDefault();
-    alert(`Você está inscrito para interagir com a IA! E-mail: ${email}`);
+    alert(`🎉 Inscrição confirmada! Bem-vindo(a) ao DeepBit.`);
     setEmail('');
   };
 
   return (
     <section className="inscription-section">
       <div className="inscription-content">
-        <h2>Inscreva-se para conversar com a IA do Blog!</h2>
+        <h2>Conecte-se ao futuro!</h2>
         <form onSubmit={handleSubscribe}>
           <input
             type="email"
-            placeholder="Digite seu e-mail para conversar com a IA"
+            placeholder="Seu melhor e-mail:"
             value={email}
             onChange={handleEmailChange}
             required
           />
-          <button type="submit">Iniciar Conversa com a IA</button>
+          <button type="submit">Inscrever</button>
         </form>
       </div>
     </section>

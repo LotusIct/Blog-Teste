@@ -3,60 +3,77 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: var(--background); /* Cor de fundo do navbar */
-  position: relative;
-  z-index: 10;
+  background-color: transparent; /* Transparente no topo */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
 }
 
-.nav-left {
-  display: flex;
-  justify-content: flex-start;
+/* Navbar com fundo sólido */
+.navbar.scrolled {
+  background-color: var(--white); /* fundo branco */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
+html {
+  scroll-behavior: smooth;
+}
+.logo img {
+  height: 50px; /* ajuste conforme quiser */
+  width: auto;
+}
 .nav-links {
-  display: flex;
-  gap: 20px;
+  display: flex; /* deixa os itens em linha */
+  gap: 20px;    /* espaço entre os links */
+  padding: 0;
+  margin: 0;
 }
 
 .nav-links li {
-  list-style-type: none;
+  list-style: none;  /* remove a bolinha */
 }
 
 .nav-links a {
   text-decoration: none;
-  color: var(--text-dark);
+  color: #ffffff; /* Branco por padrão */
   font-size: 1rem;
-}
-
-.nav-links a:hover {
-  color: var(--primary); /* Cor de hover */
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--text-dark);
-}
-
-.social {
-  display: flex;
-  gap: 15px;
-}
-
-.icon {
-  font-size: 1.5rem;
-  color: var(--text-dark);
   transition: color 0.3s ease;
 }
 
-.icon:hover {
-  color: var(--primary);
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff; /* Branco por padrão */
 }
 
-/* Responsividade para telas pequenas */
+/* Ícones */
+.icon {
+  font-size: 1.5rem;
+  color: #ffffff; /* Branco por padrão */
+  transition: color 0.3s ease;
+  margin-left: 20px;
+}
+
+/* Quando a navbar estiver scrolled */
+.navbar.scrolled .nav-links a,
+.navbar.scrolled .logo,
+.navbar.scrolled .icon {
+  color: var(--secondary); /* Rosa claro */
+}
+
+.nav-links a:hover,
+.icon:hover {
+  color: var(--primary); /* Cor de hover */
+}
+
+/* Responsividade */
 @media (max-width: 768px) {
   .nav-left {
-    display: none; /* Esconde os links no mobile */
+    display: none;
   }
 
   .logo {

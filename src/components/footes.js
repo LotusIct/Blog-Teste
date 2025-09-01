@@ -20,7 +20,7 @@ const Footer = () => {
         {/* Seção de Contato */}
         <div className="footer-contact">
           <h3>Mantenha contato.</h3>
-          <p>Feito com <a href="https://www.squarespace.com">Michaela Galbiati</a></p>
+          <p>Feito por <a href="https://www.squarespace.com">Michaela Galbiati</a></p>
         </div>
 
         {/* Seção Dúvidas */}

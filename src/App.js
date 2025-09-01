@@ -16,12 +16,13 @@ function App() {
       <Navbar />
       <main className="container">
         {/* Aqui fica a seção de inscrição */}
-        <Banner/>
-        <About/>
-        <Ia/>
-         <Citação/>
-          <Blog/>
-        <InscriptionSection />
+   <Banner id="banner" />
+<About id="sobre" />
+<Ia id="ia" />
+<Citação id="citacao" />
+<Blog id="blog" />
+<InscriptionSection id="contato" />
+
       
         {/* Adicione o conteúdo principal aqui */}
       </main>

@@ -1,25 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/navbar.css';
+import logo from '../assets/logo-removebg-preview.png';
 
 const Navbar = () => {
-  return (
-    <nav className="navbar">
-      <div className="nav-left">
-        <ul className="nav-links">
-          <li><a href="/posts">Posts</a></li>
-          <li><a href="/sobre">Sobre</a></li>
-          <li><a href="/contato">Contato</a></li>
-        </ul>
-      </div>
+  const [scrolled, setScrolled] = useState(false);
 
-      <div className="logo">Blog da IA</div>
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+
+  return (
+    <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
+   
+
+    <div className="logo">
+  <img src={logo} alt="Blog da IA" />
+</div>
 
       <div className="social">
         <a href="https://instagram.com" target="_blank" rel="noreferrer" className="icon">
-          <i className="fab fa-instagram"></i> {/* Ícone Instagram */}
+          <i className="fab fa-instagram"></i>
         </a>
         <a href="https://www.tiktok.com" target="_blank" rel="noreferrer" className="icon">
-          <i className="fab fa-tiktok"></i> {/* Ícone TikTok */}
+          <i className="fab fa-tiktok"></i>
         </a>
       </div>
     </nav>

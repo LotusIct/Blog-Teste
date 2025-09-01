@@ -71,8 +71,8 @@
 
 /* Estilos para a seção de copyright */
 .footer-copyright {
-  margin-top: 30px; /* Adiciona um pouco de espaço acima do copyright */
-  font-size: 1rem;
+  margin-top: 20px; /* Adiciona um pouco de espaço acima do copyright */
+  font-size: 0.9rem;
   color: var(--text-light);
 }
 

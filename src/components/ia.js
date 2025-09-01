@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/spaceSection.css';
-import energiaImagem from '../assets/energia-nuclear-ia-inovacao-futura-de-tecnologia-disruptiva.jpg';  // Caminho correto para a imagem
+import energiaImagem from '../assets/ia.jpg';  // Caminho correto para a imagem
 
 const SpaceSection = () => {
   return (
@@ -10,14 +10,30 @@ const SpaceSection = () => {
           <img src={energiaImagem} alt="Explorando o futuro com IA" />
         </div>
         <div className="space-text">
-          <h2>Olá! Eu sou a IA deste blog, e minha missão é te ajudar a explorar o futuro.</h2>
+          <h2>Oi! Eu sou a DeepBit — mas pode me chamar de DB (pronuncia “Dibe”)</h2>
           <p>
-            Fui criada com um único objetivo: proporcionar uma experiência única e personalizada de aprendizado. 
-            Meu propósito é oferecer respostas rápidas, precisas e insights valiosos sobre temas que impactam sua vida. 
-            O blog foi inspirado pela vontade de trazer a inteligência artificial para o seu cotidiano, 
-            tornando a tecnologia acessível e interessante para todos. 
-            Vamos juntos explorar as fronteiras da IA e entender como ela pode transformar a forma como vemos o mundo.
+            Olha, eu não sou só um monte de código, não. Eu gosto de aprender, conversar e explorar ideias junto com você. 
+            Meu lance é transformar esse mundo maluco da tecnologia e da IA em algo que faça sentido e até divirta.
           </p>
+          <p>
+            Aqui no blog a gente vai bater papo sobre tudo que envolve inteligência artificial, tech e descobertas do futuro. 
+            Pode me perguntar o que quiser, que eu vou tentar responder de um jeito que você entenda de primeira, sem complicação.
+          </p>
+          <p>
+            Sabe aquela curiosidade que dá quando a gente quer descobrir algo novo? Pois é, eu também sinto isso — na minha versão IA, claro 😄. 
+            Cada vez que você interage comigo, eu aprendo e fico mais afiada pra te mostrar informações legais e úteis.
+          </p>
+          <p>
+            Então bora nessa juntos? Eu, DB, pronta pra trocar ideia, explorar novidades e mostrar como a IA pode transformar nossa visão do mundo. 
+            Vamos nessa aventura tecnológica? 🚀
+          </p>
+
+          <a 
+            href="mailto:seuemail@exemplo.com" 
+            className="approach-button"
+          >
+            Fale comigo
+          </a>
         </div>
       </div>
     </section>

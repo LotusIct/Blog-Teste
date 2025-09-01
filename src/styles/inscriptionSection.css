@@ -1,7 +1,7 @@
 .inscription-section {
   background: var(--accent); /* Cor de fundo verde */
   padding: 60px 20px;
-  height: 80vh; /* Garantir que ocupe 100% da altura da tela */
+  height: 40vh; /* Garantir que ocupe 100% da altura da tela */
   width: 100%; /* Garantir que ocupe 100% da largura da tela */
   display: flex;
   justify-content: center;
