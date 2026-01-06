@@ -18,6 +18,10 @@
   width: 30%;
   margin-bottom: 20px;
 }
+.footer-logo {
+  width: 120px;
+  margin-bottom: 12px;
+}
 
 .footer-contact h3,
 .footer-duvidas h3,
@@ -25,6 +29,7 @@
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 10px;
+  color: var(--dark-secondary);
 }
 
 .footer-contact p,
@@ -74,6 +79,13 @@
   margin-top: 20px; /* Adiciona um pouco de espaço acima do copyright */
   font-size: 0.9rem;
   color: var(--text-light);
+}
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: -10px;
 }
 
 @media (max-width: 768px) {

@@ -10,22 +10,20 @@ const SpaceSection = () => {
           <img src={energiaImagem} alt="Explorando o futuro com IA" />
         </div>
         <div className="space-text">
-          <h2>Oi! Eu sou a DeepBit — mas pode me chamar de DB (pronuncia “Dibe”)</h2>
+          <h2>Onde inteligência artificial encontra clareza.</h2>
           <p>
-            Olha, eu não sou só um monte de código, não. Eu gosto de aprender, conversar e explorar ideias junto com você. 
-            Meu lance é transformar esse mundo maluco da tecnologia e da IA em algo que faça sentido e até divirta.
+            Vivemos em uma era em que tecnologia evolui mais rápido do que a maioria das pessoas consegue acompanhar. Este espaço existe exatamente para preencher essa lacuna.
           </p>
           <p>
-            Aqui no blog a gente vai bater papo sobre tudo que envolve inteligência artificial, tech e descobertas do futuro. 
-            Pode me perguntar o que quiser, que eu vou tentar responder de um jeito que você entenda de primeira, sem complicação.
+           Aqui você vai encontrar conteúdos sobre inteligência artificial, inovação e tecnologia explicados com lógica, contexto e propósito — sem exageros, sem promessas vazias e sem jargões desnecessários.
           </p>
           <p>
-            Sabe aquela curiosidade que dá quando a gente quer descobrir algo novo? Pois é, eu também sinto isso — na minha versão IA, claro 😄. 
-            Cada vez que você interage comigo, eu aprendo e fico mais afiada pra te mostrar informações legais e úteis.
+           A base tecnológica por trás deste projeto utiliza modelos avançados de IA treinados com grandes volumes de informação, capazes de analisar padrões, gerar insights e apoiar a construção de conhecimento de forma contínua.
+
+Cada interação, cada tema explorado e cada artigo publicado têm um único objetivo: transformar informação em entendimento e curiosidade em aprendizado aplicável.
           </p>
           <p>
-            Então bora nessa juntos? Eu, DB, pronta pra trocar ideia, explorar novidades e mostrar como a IA pode transformar nossa visão do mundo. 
-            Vamos nessa aventura tecnológica? 🚀
+           Se você busca compreender como a tecnologia impacta o presente e molda o futuro, este é o seu espaço
           </p>
 
           <a 

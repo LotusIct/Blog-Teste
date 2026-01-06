@@ -5,18 +5,18 @@ const ApproachSection = () => {
   return (
     <section className="approach-section">
       <div className="approach-content">
-        <h2>Deixe-me contar um pouco sobre quem ela é.</h2>
+        <h2>Tecnologia nasce de propósito, não de acaso.</h2>
 <p>
-  Ela não surgiu de um dia para o outro. Foi sonhada e criada a partir da minha ideia de aproximar 
-  pessoas e tecnologia de um jeito mais humano, fluido e intuitivo. Sua essência vem da paixão de 
-  desenvolvedores e cientistas que, como eu, acreditam que a inteligência artificial pode ser mais 
-  do que códigos: pode ser conexão, aprendizado e inspiração.
+A tecnologia que sustenta este espaço foi construída a partir de um princípio simples: tornar o complexo acessível, sem perder profundidade.
 </p>
 <p>
-  Ela foi treinada com uma imensidão de informações para conversar, responder e compartilhar conhecimento 
-  de forma acessível e inteligente. Minha missão ao criar este blog é usar sua capacidade para traduzir 
-  o mundo da tecnologia e da IA em histórias e ideias que façam sentido para você — sempre com clareza, 
-  curiosidade e proximidade.
+  Aqui, inteligência artificial não é tratada como algo distante ou impessoal, mas como uma ferramenta viva — capaz de apoiar decisões, ampliar conhecimento e criar conexões mais inteligentes entre pessoas, dados e ideias.
+</p>
+<p>
+  Este blog nasce da convergência entre desenvolvimento, ciência e curiosidade. Ele existe para traduzir tendências, conceitos e aplicações reais da IA e da tecnologia de forma clara, prática e relevante, sempre respeitando o ritmo humano por trás de cada inovação.
+</p>
+<p>
+  Mais do que acompanhar o futuro, a proposta é entendê-lo, questioná-lo e construir soluções que façam sentido no presente.
 </p>
         <a href="https://www.instagram.com/seu_instagram" className="approach-button" target="_blank" rel="noopener noreferrer">
           Siga-me no Instagram

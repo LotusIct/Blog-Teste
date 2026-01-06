@@ -1,5 +1,5 @@
 .inscription-section {
-  background: var(--accent); /* Cor de fundo verde */
+  background: var(--dark-secondary); /* Cor de fundo verde */
   padding: 60px 20px;
   height: 40vh; /* Garantir que ocupe 100% da altura da tela */
   width: 100%; /* Garantir que ocupe 100% da largura da tela */
@@ -17,7 +17,7 @@
 .inscription-content h2 {
   font-size: 2.5rem;
   font-weight: 600;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   color: var( --background);
 }
 
@@ -39,7 +39,7 @@
 
 .inscription-content button {
   padding: 12px 25px;
-  background-color: #f4bfae; /* Cor do botão em tom de coral */
+  background-color: #493D8C; /* Cor do botão em tom de coral */
   color: #fff;
   font-size: 1rem;
   border: none;

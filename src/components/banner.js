@@ -3,9 +3,9 @@ import '../styles/bannerSection.css';
 import deepbitVideo from '../assets/ia.mp4';
 
 const phrases = [
-  "Explorando o futuro da tecnologia e da IA...",
-  "Descubra, aprenda e se inspire com a DeepBit!",
-  "Conectando curiosidade, inovação e inteligência artificial!"
+  "Traduzindo inovação e inteligência artificial em conhecimento real.",
+  "Onde tecnologia, dados e ideias se conectam com clareza.",
+  "Explorando o presente e construindo o futuro da tecnologia."
 ];
 
 const BannerSection = () => {

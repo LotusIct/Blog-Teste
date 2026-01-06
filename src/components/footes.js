@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import '../styles/footer.css';
+import logo from '../assets/logobranco.png';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
-
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
 
   const handleSubscribe = (e) => {
     e.preventDefault();
@@ -20,7 +17,9 @@ const Footer = () => {
         {/* Seção de Contato */}
         <div className="footer-contact">
           <h3>Mantenha contato.</h3>
-          <p>Feito por <a href="https://www.squarespace.com">Michaela Galbiati</a></p>
+          <p>
+            Feito por <a href="https://www.squarespace.com">Michaela Galbiati</a>
+          </p>
         </div>
 
         {/* Seção Dúvidas */}
@@ -39,11 +38,11 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Seção de Copyright (agora abaixo de tudo) */}
+      {/* Logo + Copyright */}
       <div className="footer-copyright">
-        <p>© {new Date().getFullYear()} Blog da IA • Todos os direitos reservados</p>
+        <img src={logo} alt="Logo MIRAI" className="footer-logo" />
+        <p>© {new Date().getFullYear()} MIRAI • Todos os direitos reservados</p>
       </div>
-
     </footer>
   );
 };

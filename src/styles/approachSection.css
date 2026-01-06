@@ -10,23 +10,26 @@
 }
 
 .approach-content h2 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  color: var(--text-dark);
-  margin-bottom: 20px;
+  color: var(--primary);
+  padding: 40px 10px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .approach-content p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: var(--text-light);
   line-height: 1.8;
   margin-bottom: 30px;
+
 }
 
 .approach-button {
   display: inline-block;
-  background-color: #f4bfae; /* Cor do botão em tom de coral */
-  color: #fff;
+  background-color: #CFC7FF; /* Cor do botão em tom de coral */
+  color: #000000;
   padding: 12px 25px;
   font-size: 1rem;
   border: none;
@@ -37,7 +40,7 @@
 }
 
 .approach-button:hover {
-  background-color: #f08c7f; /* Cor de hover do botão */
+  background-color: #ffffff; /* Cor de hover do botão */
 }
 
 @media (max-width: 768px) {

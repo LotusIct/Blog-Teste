@@ -3,15 +3,15 @@
 
 :root {
   /* 🎨 Nova Paleta de Cores */
-  --background: #f8f8f8;         /* Cor de fundo: Branco suave */
-  --primary: #f4e1d2;            /* Cor primária: Bege Claro */
-  --secondary: #fbb1b1;          /* Cor secundária: Rosa Claro */
-  --dark-secondary: #e68a8a;
-  --accent: #3b3c36;             /* Cor de destaque: Cinza Escuro */
-  --text-dark: #2a2a2a;          /* Cor para texto principal */
-  --text-light: #666;            /* Cor para texto secundário */
+  --background: #0C0A14;         /* Cor de fundo: Branco suave */
+  --primary: #c3b9fd;            /* Cor primária: Bege Claro */
+  --secondary: #493D8C;          /* Cor secundária: Rosa Claro */
+  --dark-secondary: #CFC7FF;
+  --accent: #493D8C;             /* Cor de destaque: Cinza Escuro */
+  --text-dark: #0C0A14;          /* Cor para texto principal */
+  --text-light: #ffffff;            /* Cor para texto secundário */
   --white: #ffffff;             /* Cor para branco */
-  --border: #e0e0e0;             /* Cor para bordas suaves */
+  --border: #f3e8fd;             /* Cor para bordas suaves */
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Sombra suave */
   --radius: 8px;                /* Raio das bordas */
 }
