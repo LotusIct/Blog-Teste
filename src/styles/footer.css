@@ -77,8 +77,9 @@
 /* Estilos para a seção de copyright */
 .footer-copyright {
   margin-top: 20px; /* Adiciona um pouco de espaço acima do copyright */
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text-light);
+   font-family: 'Ailerons', sans-serif;
 }
 .footer-copyright {
   display: flex;

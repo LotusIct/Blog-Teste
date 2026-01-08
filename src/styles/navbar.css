@@ -21,7 +21,7 @@ html {
   scroll-behavior: smooth;
 }
 .logo img {
-  height: 50px; /* ajuste conforme quiser */
+  height: 30px; /* ajuste conforme quiser */
   width: auto;
 }
 .nav-links {

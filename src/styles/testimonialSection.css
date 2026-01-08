@@ -12,6 +12,7 @@
 .testimonial-content blockquote {
   font-size: 1.5rem;
   font-style: italic;
+
   color: var(--text-dark); /* Cor do texto da citação */
   margin-bottom: 40px;
 }
@@ -19,6 +20,7 @@
 .testimonial-content .client-name {
   font-size: 1.1rem;
   font-weight: 500;
+  font-family: 'Ailerons', sans-serif;
   color: var(--accent); /* Usando a cor de destaque para o nome do cliente */
 }
 

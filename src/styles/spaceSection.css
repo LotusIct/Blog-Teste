@@ -26,7 +26,7 @@
   font-size: 2.5rem;
   font-weight: 700;
   color: transparent;  /* Deixando o texto transparente */
-  background-image: linear-gradient(to right, var( --dark-secondary), var(--accent)); /* Gradiente de cores */
+  background-image: linear-gradient(to right, var( --dark-secondary),white); /* Gradiente de cores */
   -webkit-background-clip: text; /* Aplica o gradiente no texto */
   margin-bottom: 20px;
 }
